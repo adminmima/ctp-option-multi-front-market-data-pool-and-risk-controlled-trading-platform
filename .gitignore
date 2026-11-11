@@ -1,0 +1,11 @@
+/target
+**/target
+config_配置/config.toml
+data_数据/ticks_行情快照/*
+data_数据/flow_会话流文件/*
+logs_运行日志/*
+reports_运行报告/*
+evidence_测试证据/*
+!**/.gitkeep
+*.so
+*.con
