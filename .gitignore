@@ -15,3 +15,36 @@ evidence_测试证据/*
 .env .env.* config.ini account.conf
 __pycache__/ *.egg-info/ dist/ build/
 .idea/ .vscode/ Thumbs.db .DS_Store
+# ---- Rust / Cargo ----
+/target/
+**/target/
+**/*.rs.bk
+
+# ---- 二进制与动态库（CTP API 版权原因不入库）----
+*.dll
+*.so
+*.dylib
+*.pyd
+*.lib
+*.a
+
+# ---- 数据与模型产物 ----
+*.csv
+*.h5
+*.pkl
+*.pt
+*.parquet
+
+# ---- 密钥与本地配置 ----
+.env
+.env.*
+config.local.*
+account.conf
+*.pem
+*.key
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
