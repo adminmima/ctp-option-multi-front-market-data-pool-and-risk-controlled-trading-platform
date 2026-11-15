@@ -9,3 +9,9 @@ evidence_测试证据/*
 !**/.gitkeep
 *.so
 *.con
+
+*.dll *.so *.dylib *.pyd
+*.log data/ *.csv *.h5 *.pkl *.pt
+.env .env.* config.ini account.conf
+__pycache__/ *.egg-info/ dist/ build/
+.idea/ .vscode/ Thumbs.db .DS_Store
